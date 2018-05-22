@@ -1,0 +1,57 @@
+/* CSS file for Yahoo Hompage */
+
+.blue-text {
+  color : blue;
+}
+.purple-text {
+    color: purple;
+  }
+.font-text {
+  font-size : 40px;
+  font-family : Lobster, Monospace;
+}
+.font2-text{
+  font-size: 25px;
+  font-family: Asap;
+}
+.evensmaller-image{
+  width: 150px;
+}
+.smaller-image{
+  width : 275px;
+  height : 300px;
+  padding: 25px 25px 25px 25px;
+}
+.mediun-image{
+  width: 300px;
+}
+.thin-cool-border{
+  border-color: lightcyan;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+
+ 
