@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Yahoo Finance WatchList</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+<link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet" type="text/css">
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+
+</head>
+
+<style>
+   .set1-font{
+    font-family: Lobster;
+  }
+  .set2-font{
+    font-family: Italianno;
+    font-size: 30px;
+  }
+  .set1-color{
+    background-color: Chartreuse;
+  }
+  .set2-color{
+    background-color: OrangeRed;
+  }
+  </style>
+
+<!-- Where the Body of Code Begins-->
+<body style="background-color: #F9FAF1">
+
+<!-- Title Yahoo -->
+  <h2 style= "color:BlueViolet" class="set1-font text-center" >Yahoo!</h2>
+
+ <!-- Title Finance --> 
+  <h3 style = "color:BlueViolet" class = "set1-font text-center">Finance</h3>
+
+  <h4 class="set2-font"><i class="fa fa-eye" aria-hidden="true"></i> Your Watch List:</h4>
+
+<!-- Begining of Watchlist Table -->
+<table class="table">
+  <thead class="thead-dark">
+    <tr> 
+      <th scope="col"></th>
+      <th scope="col">Symbol</th>
+      <th scope="col">Last Price</th>
+      <th scope="col">% Chg</th>
+      <th scope="col">Currency</th>
+      <th scope="col">Market Time</th>
+      <th scope="col">Volume</th>
+      <th scope="col">Shares</th>
+      <th scope="col">Avg Vol</th>
+      <th scope="col">Market Cap</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">BMW.TI</th>
+      <td>88.40</td>
+      <td class= "set1-color">+88.40</td>
+      <td class= "set2-color">-4.87%</td> 
+      <td>EUR</td>
+      <td>May 18 CEST</td>
+      <td>0</td> 
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>      
+    </tr>
+    <tr>
+      <th scope="row">NKE</th>
+      <td>71.32</td>
+      <td class= "set1-color">+0.38</td>
+      <td class= "set1-color">+0.54%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>5.69M</td> 
+      <td>-</td>
+      <td>7.23M</td>
+      <td>114.95B</td>   
+    </tr>
+    <tr>
+      <th scope="row">AAPL</th>
+      <td>186.31</td>
+      <td class= "set2-color">-0.68</td>
+      <td class= "set2-color">-0.36%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>18.36M</td> 
+      <td>-</td>
+      <td>33.39M</td>
+      <td>-915.74B/td>   
+    </tr>
+    <tr>
+      <th scope="row">MSFT</th>
+      <td>93.36</td>
+      <td class= "set1-color">+0.18</td>
+      <td class= "set1-color">+0.19%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>17.87M</td> 
+      <td>-</td>
+      <td>30.95</td>
+      <td>740.35B</td>   
+    </tr>
+    <tr>
+      <th scope="row">AMD</th>
+      <td>13.00</td>
+      <td class= "set1-color">+0.18</td>
+      <td class= "set1-color">+1.40%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>54.06M</td> 
+      <td>-</td>
+      <td>57.07M</td>
+      <td>12.60B</td>   
+    </tr>
+    <tr>
+      <th scope="row">NFLX</th>
+      <td>324.18</td>
+      <td class= "set2-color">-1.04</td>
+      <td class= "set2-color">-0.32%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>3.58M</td> 
+      <td>-</td>
+      <td>10.60M</td>
+      <td>140.92B</td>   
+    </tr>
+       <th scope="row">TWTR</th>
+      <td>32.63</td>
+      <td class= "set1-color">+0.05</td>
+      <td class= "set1-color">+0.15%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>10.62M</td> 
+      <td>-</td>
+      <td>27.98M</td>
+      <td>24.47B</td>   
+    </tr>
+      <th scope="row">FB</th>
+      <td>182.68</td>
+      <td class= "set2-color">-1.08</td>
+      <td class= "set2-color">-0.59%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>13.13M</td> 
+      <td>-</td>
+      <td>34.53M</td>
+      <td>528.79B</td>   
+    </tr>
+     <th scope="row">FB</th>
+      <td>182.68</td>
+      <td class= "set2-color">-1.08</td>
+      <td class= "set2-color">-0.59%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>13.13M</td> 
+      <td>-</td>
+      <td>34.53M</td>
+      <td>528.79B</td>   
+    </tr>
+    <th scope="row">TSLA</th>
+      <td>276.82</td>
+      <td class= "set2-color">-7.72</td>
+      <td class= "set2-color">-2.71%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>7.25M</td> 
+      <td>-</td>
+      <td>7.74M</td>
+      <td>47.00B</td>   
+    </tr>
+    <th scope="row">GOOG</th>
+      <td>1,066.36</td>
+      <td class= "set2-color">-12.23</td>
+      <td class= "set2-color">-1.13%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>1.57M</td> 
+      <td>-</td>
+      <td>1.89M</td>
+      <td>742.12B</td>   
+    </tr>
+    <th scope="row">AMZN</th>
+      <td>1,574.37</td>
+      <td class= "set2-color">-7.39</td>
+      <td class= "set2-color">-0.47%</td> 
+      <td>USD</td>
+      <td>May 18 CEST</td>
+      <td>2.64M</td> 
+      <td>-</td>
+      <td>5.50M</td>
+      <td>763.93B</td>   
+    </tr>
+  </tbody>
+</table>
+<!-- End of Watchlist Table-->
+
+</body>
+</html>
